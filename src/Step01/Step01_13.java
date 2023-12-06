@@ -1,4 +1,4 @@
-package backjoon;
+package Step01;
 
 public class Step01_13 {
     public static void main(String[] args) {

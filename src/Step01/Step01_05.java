@@ -1,17 +1,13 @@
-package backjoon;
+package Step01;
 
 import java.util.Scanner;
 
-public class Step01_06 {
+public class Step01_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int A, B;
+        double A, B;
         A = scanner.nextInt();
         B = scanner.nextInt();
-        System.out.println(A + B);
-        System.out.println(A - B);
-        System.out.println(A * B);
         System.out.println(A / B);
-        System.out.println(A % B);
     }
 }
