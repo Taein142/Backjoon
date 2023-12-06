@@ -1,2 +1,4 @@
-package backjoon;public class Step01_02 {
+package backjoon;
+
+public class Step01_02 {
 }
