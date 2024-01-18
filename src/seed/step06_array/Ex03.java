@@ -14,8 +14,8 @@ public class Ex03 {
         }
 
         for (int i = 0; i < 30; i++) {
-            if (students[i] == 0){
-                System.out.println(i+1);
+            if (students[i] == 0) {
+                System.out.println(i + 1);
             }
         }
     }
