@@ -13,5 +13,6 @@ public class Ex02 {
             }
             System.out.println(pact);
         }
+
     }
 }
