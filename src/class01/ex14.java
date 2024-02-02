@@ -11,7 +11,7 @@ public class ex14 {
 
         int sum = 0;
 
-        for (byte value : br.readLine().getBytes()){
+        for (byte value : br.readLine().getBytes()) {
             sum += (value - '0');
         }
         System.out.print(sum);
