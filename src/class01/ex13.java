@@ -18,7 +18,7 @@ public class ex13 {
             int number = Integer.parseInt(st.nextToken());
             if (max < number) {
                 max = number;
-            } else if (min > number) {
+            } if (min > number) {
                 min = number;
             }
         }
