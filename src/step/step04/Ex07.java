@@ -1,0 +1,22 @@
+package step.step04;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Ex07 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int[] student = new int[30];
+
+        for (int i = 0; i < 28; i++) {
+            int doneProject = Integer.parseInt(br.readLine());
+            student[doneProject - 1] = 1;
+        }
+        for (int i = 0; i < student.length; i++) {
+            if (student[i] == 0){
+                System.out.println(i+1);
+            }
+        }
+    }
+}
