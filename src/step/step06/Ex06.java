@@ -39,7 +39,6 @@ public class Ex06 {
                 }
             }
 
-
             else if((ch == 's' || ch == 'z') && i < len - 1) {
                 if(str.charAt(i + 1) == '=') {
                     i++;
