@@ -19,12 +19,12 @@ public class Ex01 {
         int sum = 0;
 
         for(int i = n.length()-1 ; i >= 0; i--){
-            char C = n.charAt(i);
+            char ch = n.charAt(i);
 
-            if ('A' <= C && C<= 'Z') {
-                sum += (C - 'A' + 10) * tmp;
+            if ('A' <= ch && ch<= 'Z') {
+                sum += (ch - 'A' + 10) * tmp;
             } else {
-                sum += (C - '0') * tmp;
+                sum += (ch - '0') * tmp;
             }
             tmp *= b;
         }
