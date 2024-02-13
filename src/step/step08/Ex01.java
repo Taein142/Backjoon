@@ -10,8 +10,6 @@ public class Ex01 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        br.close();
-
         String n = st.nextToken();
         int b = Integer.parseInt(st.nextToken());
 
@@ -30,5 +28,7 @@ public class Ex01 {
         }
 
         System.out.println(sum);
+
+        br.close();
     }
 }
