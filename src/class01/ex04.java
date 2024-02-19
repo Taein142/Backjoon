@@ -13,9 +13,9 @@ public class ex04 {
 
         for (int i = 1; i <= 9; i++) {
             num = Integer.parseInt(br.readLine());
-            if (num>maxNum){
-                maxNum = num;
-                count = i;
+            if (num>maxNum){ // 입력받은 값들 중 최댓값 구하기
+                maxNum = num;  // 최댓값 수정
+                count = i; // 최댓값의 순번을 저장
             }
         }
         System.out.println(maxNum);
