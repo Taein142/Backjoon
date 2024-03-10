@@ -14,8 +14,10 @@ public class Q1264 {
             if (str.equals("#")) {
                 break;
             }
+
             for (int i = 0; i < str.length(); i++) {
-                if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o' || str.charAt(i) == 'u') {
+                char ch = Character.toLowerCase(str.charAt(i));
+                if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
                     cnt++;
                 }
             }
